@@ -61,7 +61,6 @@ var postcssPlugins = [
 	}),
 	require('postcss-strip-inline-comments'),
 	require('postcss-url'),
-	//require('postcss-sassy-mixins')({ mixins: materialize.mixins}),
 	require('postcss-advanced-variables')({
 		unknown: (node, name, result) => {
 			if(name === 'secondary_color') {} else {
@@ -69,7 +68,6 @@ var postcssPlugins = [
 			}
 		}
 	}),
-	//require('postcss-functions')({functions: materialize.functions}),
 	require('postcss-bem')({
 		style: 'bem',
 		separators: {
