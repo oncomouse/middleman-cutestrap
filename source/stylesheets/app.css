@@ -1,0 +1,8 @@
+@import "cutestrap";
+
+@b header{
+	@e title{
+		font-family: "Pacifico";
+		color: $primary;
+	}
+}
