@@ -83,6 +83,7 @@ var postcssPlugins = [
 	}),
 	require('postcss-nested'),
 	require('postcss-extend'),
+	require('postcss-sass-color-functions'),
 	require('rucksack-css')(),
 	require('css-mqpacker'),
 	require('laggard'),
